@@ -19,4 +19,5 @@ ORDER BY p.subject_id, a.hadm_id
 
 2. corpus.pickle. Run get_corpora.ipynb
 
-The notebook could also be used with discharge summaries from other sources. It only expects two columns: hadm_id and text, which have the patients ID and the text in their discharge summary. 
+medicineExplainerFinal.ipynb could also be used with discharge summaries from other sources. It only expects two columns: hadm_id and text, which have the patients ID and the text in their discharge summary.\
+get_keywords.ipynb is a separate notebook that may be used in the absence of discharge summaries to get keywords for inputted medication, condition pairs.
